@@ -13,5 +13,5 @@ Sample size: 63. My mu1=20, mu2=15, sigma=12, alpha=0.05, power=.80
 
 *2) Now say that we are also testing three other hypotheses in the trial that can be considered independent of this one (so four hypotheses in total). What is the Bonferroni adjusted alpha level in this case?
 
-bonferroni=
+dis 0.05/4
 
