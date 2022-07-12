@@ -49,8 +49,9 @@ mat list r(des)
 
 *2. Answer on word
 *3. How would you calculate the Probability of Early Termination (PET) using the binomial command? Check that you get the same as the output from singlearm.
-
-
+	
+//here we refer to the optimal design, which says we need 3 people out of 13 to have success, with pi0 of 0.2
+	f_binomial(13,3,0.2)
 
 *4. You can use the command in singlearm called opchar_gs to evaluate the properties of specified designs for different values of p. Use this to evaluate how the operating characteristics change as p varies between values of 0.1 and 0.5. E.g., find the optimal design and then evaluate for p = 0.1, 0.2, …, 0.5 with
 
